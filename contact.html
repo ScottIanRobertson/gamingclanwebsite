@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>The Elite Force Gaming Clan</title>
+    <link rel="icon" type="favicon" href="favicons/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">The Elite Force</div>
+      <div class="opennav"onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="../images/energysword.png" alt="energysword"></div>
+      <div class="nav">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="members.html">Members</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><div class="socialbar">
+            <header>              
+                  <a href="https://discord.com">
+                    <img src="images/discord.png" target="_blank" alt="" />
+                  </a>                
+            </header>
+          </div>
+        </li>
+        </div>
+        </ul>
+    </header>
+    <div class="contact">
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="gtag">Gamertag</label>
+          <input
+            type="text"
+            id="gtag"
+            name="gtag"
+            placeholder="Your Xbox Gamertag.."
+          />
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name.." />
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 170px"
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+  </body>
+</html>

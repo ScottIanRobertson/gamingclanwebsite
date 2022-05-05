@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>The Elite Force Gaming Clan</title>
+    <link rel="icon" type="favicon" href="favicons/favicon.ico" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">The Elite Force</div>
+      <div class="opennav"onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="../images/energysword.png" alt="energysword"></div>
+      <div class="nav">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="members.html">Members</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><div class="socialbar">
+            <header>              
+                  <a href="https://discord.com">
+                    <img src="images/discord.png" target="_blank" alt="" />
+                  </a>                
+            </header>
+          </div>
+        </li>
+        </div>
+        </ul>
+    </header>
+    <div class="games">
+      <h1>Games</h1>
+      <br>
+      <br>
+
+  
+        <table border=1 id="table_detail" 
+            align=center cellpadding=10>
+  
+            <tr>
+                <th>Game</th>
+                <th>Website</th>
+                                
+            </tr>
+  
+            <tr onclick="showHideRow('hidden_row1');">
+                <td>Halo The Master Chief Collection</td>
+                <td><a href="https://www.xbox.com/en-AU/games/halo-the-master-chief-collection">
+                  <img src="images/halomcc.jpg" alt="halomcc" style="width:100%;height:100%;">
+                  </a></td>
+            </tr>
+            <tr id="hidden_row1" class="hidden_row">
+               <td colspan=3>
+                  About the clan and this game...
+              </td>
+            </tr>
+            <tr onclick="showHideRow('hidden_row2');">
+              <td>ARK Survival Evolved</td>
+              <td><a href="https://www.xbox.com/en-au/games/store/ARK-Survival-Evolved/9NBLGGH52XC6">
+                <img src="images/ark.jpg" alt="ark" style="width:100%;height:100%;">
+                </a></td>
+          </tr>
+          <tr id="hidden_row2" class="hidden_row">
+             <td colspan=3>
+                About the clan and this game...
+            </td>
+          </tr>
+            
+        </table>
+   
+    <script src="js/script.js"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+  </body>
+</html>

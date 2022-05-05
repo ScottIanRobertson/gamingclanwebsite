@@ -1,0 +1,8 @@
+1. Goal = Give information about The Elite Force
+2. Target audience = Gamers
+3. Core App Feauture = Clear information
+4. Technology = HTML, CSS, Javascript
+5. Design = 
+6. Build Core App Feature = Minimum Viable Product (MVP)
+7. Test With Audience
+8. Iterate! = Get feedback on every change
